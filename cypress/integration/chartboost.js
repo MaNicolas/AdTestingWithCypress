@@ -68,7 +68,7 @@ describe('Work on chartboost test', () => {
             .should('be.visible')
             .and('have.text', 'The decision to show this ad is based on certain properties of your device. Please read our Privacy Policy here')        
         cy.get('#ext-privacy-policy-link').as('privatePolicyLink')
-        //cy.get('@privatePolicyLink').click(0, -60)
+        cy.get('@privatePolicyLink').click(0, -60)
         //cy.get('@snippet').should('not.be.visible')
     })    
 })
