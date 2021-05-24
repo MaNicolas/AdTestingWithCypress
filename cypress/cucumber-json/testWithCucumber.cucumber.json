@@ -23,7 +23,7 @@
             "name": "I successfully navigate to the ad",
             "result": {
               "status": "passed",
-              "duration": 434000000
+              "duration": 507000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I should see the ad image correctly displayed",
             "result": {
               "status": "passed",
-              "duration": 35000000
+              "duration": 50000000
             }
           }
         ]
@@ -53,7 +53,7 @@
             "name": "I successfully navigate to the ad",
             "result": {
               "status": "passed",
-              "duration": 327000000
+              "duration": 350000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "I should see see the bottom HUD correctly",
             "result": {
               "status": "passed",
-              "duration": 126000000
+              "duration": 139000000
             }
           }
         ]
@@ -83,7 +83,7 @@
             "name": "I successfully navigate to the ad",
             "result": {
               "status": "passed",
-              "duration": 426000000
+              "duration": 353000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "I should see the close button after 6000 milliseconds",
             "result": {
               "status": "passed",
-              "duration": 5025000000
+              "duration": 5028000000
             }
           }
         ]
@@ -113,7 +113,7 @@
             "name": "I successfully navigate to the ad",
             "result": {
               "status": "passed",
-              "duration": 641000000
+              "duration": 322000000
             }
           },
           {
@@ -123,7 +123,7 @@
             "name": "The download button should be a link",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 29000000
             }
           }
         ]
@@ -143,7 +143,7 @@
             "name": "I successfully navigate to the ad",
             "result": {
               "status": "passed",
-              "duration": 338000000
+              "duration": 294000000
             }
           },
           {
@@ -153,7 +153,7 @@
             "name": "I click on the \"#screen-primary-download-button\"",
             "result": {
               "status": "passed",
-              "duration": 506000000
+              "duration": 429000000
             }
           },
           {
@@ -163,7 +163,7 @@
             "name": "I should see \"Chartboost.Utils.click\" in the console log",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 16000000
             }
           }
         ]
@@ -183,7 +183,7 @@
             "name": "I successfully navigate to the ad",
             "result": {
               "status": "passed",
-              "duration": 339000000
+              "duration": 300000000
             }
           },
           {
@@ -193,7 +193,7 @@
             "name": "I click on the \"#close-button\"",
             "result": {
               "status": "passed",
-              "duration": 5142000000
+              "duration": 5164000000
             }
           },
           {
@@ -203,7 +203,7 @@
             "name": "I should see \"mraid.close\" in the console log",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 37000000
             }
           }
         ]
@@ -223,7 +223,7 @@
             "name": "I successfully navigate to the ad",
             "result": {
               "status": "passed",
-              "duration": 340000000
+              "duration": 626000000
             }
           },
           {
@@ -233,7 +233,7 @@
             "name": "I click on the Chartboost logo",
             "result": {
               "status": "passed",
-              "duration": 102000000
+              "duration": 108000000
             }
           },
           {
@@ -243,7 +243,7 @@
             "name": "I should see a term of use snippet",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 32000000
             }
           }
         ]
