@@ -1,8 +1,4 @@
 {
     "chromeWebSecurity": false,
-    "reporter": "mochawesome",
-
-    "env":{        
-        
-    }
+    "reporter": "mochawesome"
 }

@@ -13,12 +13,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cucumber-html-reporter": "^5.4.0",
     "cypress": "^7.3.0",
     "cypress-cucumber-preprocessor": "^4.1.0",
     "mocha": "^8.4.0",
     "mochawesome": "^6.2.2"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
   }
 }

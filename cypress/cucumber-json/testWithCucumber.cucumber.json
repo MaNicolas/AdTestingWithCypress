@@ -1,0 +1,253 @@
+[
+  {
+    "description": "    I want to check if the ad is working as expected",
+    "keyword": "Feature",
+    "name": "Automation testing using Cucumber",
+    "line": 1,
+    "id": "automation-testing-using-cucumber",
+    "tags": [],
+    "uri": "testWithCucumber.feature",
+    "elements": [
+      {
+        "id": "automation-testing-using-cucumber;as-a-user,-i-am-able-to-see-the-ad-image",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a user, I am able to see the ad image",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I successfully navigate to the ad",
+            "result": {
+              "status": "passed",
+              "duration": 434000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the ad image correctly displayed",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "automation-testing-using-cucumber;as-a-user,-i-am-able-to-see-the-hud-correctly",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "As a user, I am able to see the HUD correctly",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I successfully navigate to the ad",
+            "result": {
+              "status": "passed",
+              "duration": 327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see see the bottom HUD correctly",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "automation-testing-using-cucumber;as-a-user,-i-am-able-to-see-the-close-button",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "As a user, I am able to see the close button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I successfully navigate to the ad",
+            "result": {
+              "status": "passed",
+              "duration": 426000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should see the close button after 6000 milliseconds",
+            "result": {
+              "status": "passed",
+              "duration": 5025000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "automation-testing-using-cucumber;download-button-should-be-clickable",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Download button should be clickable",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I successfully navigate to the ad",
+            "result": {
+              "status": "passed",
+              "duration": 641000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "The download button should be a link",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "automation-testing-using-cucumber;checking-console-log-after-clicking-on-a-button",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Checking console log after clicking on a button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I successfully navigate to the ad",
+            "result": {
+              "status": "passed",
+              "duration": 338000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I click on the \"#screen-primary-download-button\"",
+            "result": {
+              "status": "passed",
+              "duration": 506000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should see \"Chartboost.Utils.click\" in the console log",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "automation-testing-using-cucumber;checking-console-log-after-clicking-on-a-button",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Checking console log after clicking on a button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I successfully navigate to the ad",
+            "result": {
+              "status": "passed",
+              "duration": 339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I click on the \"#close-button\"",
+            "result": {
+              "status": "passed",
+              "duration": 5142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should see \"mraid.close\" in the console log",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "automation-testing-using-cucumber;snippet-appears-when-clicking-on-chartboost-logo",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Snippet appears when clicking on Chartboost logo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I successfully navigate to the ad",
+            "result": {
+              "status": "passed",
+              "duration": 340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I click on the Chartboost logo",
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should see a term of use snippet",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
