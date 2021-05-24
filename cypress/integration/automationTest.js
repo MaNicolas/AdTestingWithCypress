@@ -41,7 +41,7 @@ describe('Work on chartboost test', () => {
     })
 
     //The download button is clickable
-    it('download button should be clickable', () => {        
+    it('should verify that the download button is clickable', () => {        
         cy.get('#screen-primary-download-button')
             .should('be.visible')
             .and('have.attr', 'href', 'javascript:')
@@ -68,7 +68,7 @@ describe('Work on chartboost test', () => {
             .should('be.visible')
             .and('have.text', 'The decision to show this ad is based on certain properties of your device. Please read our Privacy Policy here')        
         cy.get('#ext-privacy-policy-link').as('privatePolicyLink')
-        cy.get('@privatePolicyLink').click(0, -60)
+        //cy.get('@privatePolicyLink').click(0, -60)
         //cy.get('@snippet').should('not.be.visible')
     })    
 })

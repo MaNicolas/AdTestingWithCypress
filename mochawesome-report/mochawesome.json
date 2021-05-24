@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-05-24T07:02:57.995Z",
+    "end": "2021-05-24T07:03:03.733Z",
+    "duration": 5738,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "81f68fb3-e849-4d05-9739-8a48b1e8aacb",
+      "title": "",
+      "fullFile": "cypress/integration/automationTest.js",
+      "file": "cypress/integration/automationTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9bcb9a7f-6d87-471f-a061-d8733d795245",
+          "title": "Work on chartboost test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should display the image correctly",
+              "fullTitle": "Work on chartboost test should display the image correctly",
+              "timedOut": null,
+              "duration": 5605,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#landscape_image').should('have.attr', 'style', 'background-image: url(\"images/c2680fcf51fb9a840b6207dc36fd07b1dc9bc198.jpeg\");');\ncy.get('#portrait_image').should('have.attr', 'style', 'background-image: url(\"images/d836f 406572271ee4d4c8bd8bf48a2c16685b952.jpeg\");');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected '<div#portrait_image.screen-image.portrait-image>' to have attribute 'style' with the value 'background-image: url(\"images/d836f 406572271ee4d4c8bd8bf48a2c16685b952.jpeg\");', but the value was 'background-image: url(\"images/d836f406572271ee4d4c8bd8bf48a2c16685b952.jpeg\");'",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected '<div#portrait_image.screen-image.portrait-image>' to have attribute 'style' with the value 'background-image: url(\"images/d836f 406572271ee4d4c8bd8bf48a2c16685b952.jpeg\");', but the value was 'background-image: url(\"images/d836f406572271ee4d4c8bd8bf48a2c16685b952.jpeg\");'\n    at Context.eval (http://localhost:61815/__cypress/tests?p=cypress\\integration\\automationTest.js:113:31)",
+                "diff": "- 'background-image: url(\"images/d836f406572271ee4d4c8bd8bf48a2c16685b952.jpeg\");'\n+ 'background-image: url(\"images/d836f 406572271ee4d4c8bd8bf48a2c16685b952.jpeg\");'\n"
+              },
+              "uuid": "f48e5693-5190-460c-89c2-3d39826d777c",
+              "parentUUID": "9bcb9a7f-6d87-471f-a061-d8733d795245",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "f48e5693-5190-460c-89c2-3d39826d777c"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 5605,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}
