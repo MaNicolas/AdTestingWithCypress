@@ -23,7 +23,7 @@
             "name": "I successfully navigate to the ad",
             "result": {
               "status": "passed",
-              "duration": 507000000
+              "duration": 489000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I should see the ad image correctly displayed",
             "result": {
               "status": "passed",
-              "duration": 50000000
+              "duration": 48000000
             }
           }
         ]
@@ -53,7 +53,7 @@
             "name": "I successfully navigate to the ad",
             "result": {
               "status": "passed",
-              "duration": 350000000
+              "duration": 337000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "I should see see the bottom HUD correctly",
             "result": {
               "status": "passed",
-              "duration": 139000000
+              "duration": 141000000
             }
           }
         ]
@@ -83,7 +83,7 @@
             "name": "I successfully navigate to the ad",
             "result": {
               "status": "passed",
-              "duration": 353000000
+              "duration": 356000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "I should see the close button after 6000 milliseconds",
             "result": {
               "status": "passed",
-              "duration": 5028000000
+              "duration": 5036000000
             }
           }
         ]
@@ -113,7 +113,7 @@
             "name": "I successfully navigate to the ad",
             "result": {
               "status": "passed",
-              "duration": 322000000
+              "duration": 317000000
             }
           },
           {
@@ -143,7 +143,7 @@
             "name": "I successfully navigate to the ad",
             "result": {
               "status": "passed",
-              "duration": 294000000
+              "duration": 319000000
             }
           },
           {
@@ -153,7 +153,7 @@
             "name": "I click on the \"#screen-primary-download-button\"",
             "result": {
               "status": "passed",
-              "duration": 429000000
+              "duration": 534000000
             }
           },
           {
@@ -183,7 +183,7 @@
             "name": "I successfully navigate to the ad",
             "result": {
               "status": "passed",
-              "duration": 300000000
+              "duration": 308000000
             }
           },
           {
@@ -193,7 +193,7 @@
             "name": "I click on the \"#close-button\"",
             "result": {
               "status": "passed",
-              "duration": 5164000000
+              "duration": 5171000000
             }
           },
           {
@@ -203,7 +203,7 @@
             "name": "I should see \"mraid.close\" in the console log",
             "result": {
               "status": "passed",
-              "duration": 37000000
+              "duration": 38000000
             }
           }
         ]
@@ -223,7 +223,7 @@
             "name": "I successfully navigate to the ad",
             "result": {
               "status": "passed",
-              "duration": 626000000
+              "duration": 635000000
             }
           },
           {
@@ -233,7 +233,7 @@
             "name": "I click on the Chartboost logo",
             "result": {
               "status": "passed",
-              "duration": 108000000
+              "duration": 107000000
             }
           },
           {
